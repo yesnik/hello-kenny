@@ -1,29 +1,29 @@
-# hello-kenny
+# hello_kenny
 Simple "hello world" ruby gem
 
 ## Installation
 
 * Clone this repository and move to the gem folder:
 ```
-$ git clone git@github.com:yesnik/hello-kenny.git
-$ cd hello-kenny
+$ git clone git@github.com:yesnik/hello_kenny.git
+$ cd hello_kenny
 ```
 
 * Build gem
 ```
-$ gem build hello-kenny.gemspec
+$ gem build hello_kenny.gemspec
 ```
 
 * Install gem
 ```
-$ gem install ./hello-kenny-0.0.1.gem
+$ gem install ./hello_kenny-0.0.1.gem
 ```
 
 * Require gem and use it
 ```ruby
 $ irb
->> require 'hello-kenny'
+>> require 'hello_kenny'
  => true 
 >> HelloKenny.hello
  => "Hello, Kenny!"
-```
+
